@@ -3,47 +3,111 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* css header */
 header{
+  /* start debug */
   height: 300px;
   background-color: red;
+  /* end debug */
   margin: 1%;
   margin-bottom: 0;
 }
+.titolo{
+  /* start debug */
+  height: 250px;
+  background-color: grey;
+  /* end debug */
+  border: solid white 10px;
+}
+header nav{
+  /* start debug */
+  background-color:orange;
+  height: 50px;
+  /* end debug */
+}
+/* css footer */
+
 footer{
+  /* start debug */
   height: 350px;
   background-color: lightgreen;
+  /* end debug */
   margin: 1%;
   margin-top: 0;
 }
+footer div{
+  /* start debug */
+  height: 250px;
+  background-color: grey;
+  /* end debug */
+  display: inline-block;
+  width: 24%;
+  margin: 0.25%;
+  margin-bottom: 0;
+}
+#pièpagina{
+  /* start debug */
+  height:95px;
+  /* end debug */
+  display: block;
+  width: 100%;
+  margin: 0;
+}
 main{
+  /* start debug */
   background-color: lightblue;
+  /* end debug */
 }
 main::after{
   content: "";
   display: table;
   clear: both;
 }
+/* css aside */
 .left{
+  /* start debug */
   background-color: yellow;
-  height: 150px;
+  height: 210px;
+  /* end debug */
   width: 25%;
   float:left;
   margin-left: 1%;
   margin-top: 1%;
 }
-.right{
 
+.right{
+  /* start debug */
   background-color: green;
-  height: 250px;
+  height: 140px;
+  /* end debug */
   width: 30%;
   float:left;
   margin-right: 1%;
   margin-top: 1%;
 }
+aside div{
+  /* start debug */
+  background-color: white;
+  height: 50px;
+  /* end debug */
+  margin: 20px 0;
+}
+/* css section */
 section{
+    /* start debug */
   background-color: black;
   height: 600px;
+  /* end debug */
   width:41%;
   float: left;
   margin: 1%;
+}
+section article{
+  /* start debug */
+  border-bottom: solid 1px orange;
+  background-color: brown;
+  /* end debug */
+  margin;0
+  padding: 5px;
+  height: 25%;
 }
